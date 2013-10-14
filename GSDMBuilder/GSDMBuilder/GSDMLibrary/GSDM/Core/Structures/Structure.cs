@@ -12,7 +12,7 @@
 
 namespace GSDMLibrary.GSDM.Core.Structures
 {
-    public class Structure
+    public abstract class Structure
     {
     }
 }

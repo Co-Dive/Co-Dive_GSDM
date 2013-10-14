@@ -12,7 +12,7 @@
 
 namespace GSDMLibrary.GSDM.Core.Geometries
 {
-    public class Geometry
+    public abstract class Geometry
     {
     }
 }

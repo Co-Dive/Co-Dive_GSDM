@@ -1,12 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿/******************************************************************************
+
+	FILE : Scene.cs
+	AUTHOR  : Zongcheng.LI
+	
+	DATE OF DESIGN : 14/06/2013
+	MODIFIED ON : 14/10/2013
+
+	GOAL : Class for the Scene.
+
+******************************************************************************/
 
 namespace GSDMLibrary.GSDM
 {
-    class Scene
+    public class Scene
     {
     }
 }

@@ -1,12 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿/******************************************************************************
+
+	FILE : Semantic.cs
+	AUTHOR  : Zongcheng.LI
+	
+	DATE OF DESIGN : 14/06/2013
+	MODIFIED ON : 14/10/2013
+
+	GOAL : Base Class for the Semantic.
+
+******************************************************************************/
 
 namespace GSDMLibrary.GSDM.Core.Semantics
 {
-    class Semantic
+    public class Semantic
     {
     }
 }

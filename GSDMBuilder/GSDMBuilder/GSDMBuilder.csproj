@@ -41,13 +41,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GSDMLibrary\GSDM\Component.cs" />
+    <Compile Include="GSDMLibrary\GSDM\Core\Geometries\Geometry.cs" />
+    <Compile Include="GSDMLibrary\GSDM\Core\Semantics\Semantic.cs" />
+    <Compile Include="GSDMLibrary\GSDM\Core\Structures\Structure.cs" />
+    <Compile Include="GSDMLibrary\GSDM\Scene.cs" />
+    <Compile Include="GSDMLibrary\GSDM\Object.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="GSDMLibrary\Extensions\IO\" />
+    <Folder Include="GSDMLibrary\Extensions\Mathematics\" />
+    <Folder Include="GSDMLibrary\ToolBox\Constraints\" />
+    <Folder Include="GSDMLibrary\ToolBox\Operations\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

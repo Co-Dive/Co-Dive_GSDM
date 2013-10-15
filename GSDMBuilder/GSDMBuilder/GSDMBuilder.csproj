@@ -41,23 +41,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GSDMLibrary\Extensions\IO\OffOutFileReader.cs" />
+    <Compile Include="GSDMLibrary\Extensions\Visulazations\Unity3DExtension.cs" />
     <Compile Include="GSDMLibrary\GSDM\Component.cs" />
     <Compile Include="GSDMLibrary\GSDM\Core\Geometries\Geometry.cs" />
+    <Compile Include="GSDMLibrary\GSDM\Core\Geometries\Geometry2D\Geometry2D.cs" />
+    <Compile Include="GSDMLibrary\GSDM\Core\Geometries\Geometry3D\Geometry3D.cs" />
     <Compile Include="GSDMLibrary\GSDM\Core\Semantics\Semantic.cs" />
+    <Compile Include="GSDMLibrary\GSDM\Core\Structures\Object\OStructure.cs" />
+    <Compile Include="GSDMLibrary\GSDM\Core\Structures\Scene\SStructure.cs" />
     <Compile Include="GSDMLibrary\GSDM\Core\Structures\Structure.cs" />
+    <Compile Include="GSDMLibrary\GSDM\Core\Structures\Component\CStructure2D.cs" />
+    <Compile Include="GSDMLibrary\GSDM\Core\Structures\Component\CStructure3D.cs" />
     <Compile Include="GSDMLibrary\GSDM\Scene.cs" />
     <Compile Include="GSDMLibrary\GSDM\Object.cs" />
+    <Compile Include="GSDMLibrary\ToolBox\Constraints\Constraint.cs" />
+    <Compile Include="GSDMLibrary\ToolBox\Operations\Operation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="GSDMLibrary\Extensions\IO\" />
-    <Folder Include="GSDMLibrary\Extensions\Mathematics\" />
-    <Folder Include="GSDMLibrary\ToolBox\Constraints\" />
-    <Folder Include="GSDMLibrary\ToolBox\Operations\" />
+    <Content Include="GSDMLibrary\Extensions\Mathematics\Wolfram.NETLink.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

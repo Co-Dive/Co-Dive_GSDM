@@ -9,6 +9,7 @@
 	GOAL : Class for Component.
 
 ******************************************************************************/
+
 using GSDMLibrary.GSDM.Core.Semantics;
 using GSDMLibrary.GSDM.Core.Structures;
 using GSDMLibrary.GSDM.Core.Geometries;

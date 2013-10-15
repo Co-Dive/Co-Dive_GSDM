@@ -1,18 +1,18 @@
 ﻿/******************************************************************************
 
-	FILE : Geometry.cs
+	FILE : Structure.cs
 	AUTHOR  : Zongcheng.LI
 	
 	DATE OF DESIGN : 14/06/2013
 	MODIFIED ON : 14/10/2013
 
-	GOAL : Base class for the Geometry.
+	GOAL : Base class for the Structure.
 
 ******************************************************************************/
 
-namespace GSDMLibrary.GSDM.Core.Geometries
+namespace GSDMLibrary.GSDM.Core.Structures.Scene
 {
-    public abstract class Geometry
+    public class SStructure:Structure
     {
 
     }

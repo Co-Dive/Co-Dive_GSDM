@@ -9,6 +9,7 @@
 	GOAL : Class for the object in the Scene.
 
 ******************************************************************************/
+
 using GSDMLibrary.GSDM.Core.Semantics;
 using GSDMLibrary.GSDM.Core.Structures;
 
